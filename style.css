@@ -1,0 +1,398 @@
+header {
+    width: 100%;
+    display: flex;
+}
+
+.img-log{
+    width: 350px;
+    height: 10em;
+    margin-left: 50px;
+}
+.navbar {
+    color: aqua,#20c997;
+    justify-content: space-between;
+    position:fixed;
+    
+}
+.navbar ul li { 
+   
+    text-decoration: none;
+    display: inline;
+    list-style-type: none;
+    justify-content: space-between;
+    margin:10px;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: #20c997;
+}
+.img-site {
+    margin-left: 50%;
+
+}
+
+.tilte-info {
+    margin: 20px 100px;
+    margin-left: 350px;
+    color: #52b79b
+}
+.container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.container-fonction{
+    display: flex;
+}
+.service1{
+    background-color:53CDB1;
+    font-size: x-large;
+    color: white;
+    
+   
+    
+}
+.service2{
+    background-color:rgb(61,131,223);
+    font-size: x-large;
+    color: white;
+}
+.service3 { 
+    background-color: rgb(27,39,52);
+    color: white;
+    font-size: x-large;
+}
+
+#serv1,
+#serv2,
+#serv3{
+    margin-left: 30px;
+    margin-right: 5px;
+    border-radius: 25px;
+}
+
+#serv1{
+    background-color:#20c997;
+}
+
+#serv2{
+    background-color:rgb(61,131,223);;
+}
+
+#serv3{
+    background-color: rgb(27,39,52);
+}
+.brand  {
+    margin-top: 70px;
+}
+.container-photo{
+    display: flex;
+  
+}
+.about{
+    margin-left: 10px;
+    font-size: x-large;
+    color:#44b5ae;
+}
+.ensemble{
+    align-content: flex-start;
+}
+
+.logo{
+    display: flex;
+    
+   
+}
+.partenaire{
+    display: flex;
+}
+.elt-site1{
+    display: flex;
+}
+.elt-site1 a{
+    text-decoration: none;
+    color:#c4c4c4 ;
+}
+.elt-site2{
+    display: flex;
+}
+.elt-site2 a{
+    text-decoration: none;
+    color:#c4c4c4 ;
+}
+.elt-site3{
+    display: flex;
+}
+.elt-site3 a{
+    text-decoration: none;
+    color:#c4c4c4 ;
+}
+.elt-site4{
+    display: flex;
+}
+.elt-site4 a{
+    text-decoration: none;
+    color:#c4c4c4 ;
+}
+.elt-site5{
+    margin-top: 15px;
+    display: flex;
+}
+.elt-site5 a{
+    text-decoration: none;
+    color:#c4c4c4 ;
+}
+
+.site1,
+.site2,
+.site3,
+.site4,
+.site5{
+    margin-left: 30px;
+    height: 25px;
+    width: 25px;
+    margin-right: 10px;
+}
+.log1,
+.log2,
+.log3,
+.log4{
+    margin-right: 20px;
+    width: 80px;
+}
+.plaqueforme{
+    display: flex;
+    flex-direction: row;
+    background-color: #d8f6f6;
+    margin-top: 50px;
+    align-content: center;
+}
+.floter{
+    display: block;
+}
+
+.title-plaque{
+    color: #48bbaf;
+}
+.text{
+    font-weight: 100;
+    color: rgb(54, 50, 50);
+}
+.img-plaque{
+    height: 60%;
+    margin-left: 70px;
+    margin-top: 20px;
+}
+
+.document{
+    margin-top:50px;
+    
+}
+.card{
+    margin-top: 50px;
+    margin-left: 450px;
+    width: 30rem;
+}
+.card,
+.title-card{
+    justify-content: space-between;
+    padding: 10px;
+    color: #52cfcf;
+}
+.card-text{
+    color: rgb(95, 86, 86);
+}
+.first-container{
+    display: flex;
+    margin-left: 100px;
+    
+}
+.second-container{
+    display: flex;
+    margin-left: 100px;
+    margin-right: 70px;
+}
+.third-container{
+    display: flex;
+    margin-left: 100px;
+    margin-right: 70px;
+}
+.autre{
+    margin-right: 20px;
+}
+.contact{
+    margin-left: 50px;
+    
+   
+}
+.btn-primary{
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+.card-link{
+    align-items: center;
+    margin-top: 10px;
+}
+
+#first-second-container{
+    display: flex;
+    flex-direction: row;
+}
+
+.first,
+.second{
+    display: flex;
+    flex-direction: column;
+}
+
+#redim1,
+#redim2,
+#redim3,
+#redim4{
+    width: 350px;
+    background-color: white;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    border-radius: 10px;
+}
+#redim1 {
+    margin-top: 50px;
+}
+#redim3{
+    margin-top: 20px;
+}
+.first img{
+    
+    margin-top: 50px;
+    margin-left: 150px;
+}
+.second img{
+    
+    margin-top: 50px;
+    margin-left: 150px;
+}
+.first h5{
+    margin-left: 130px;
+    color: #48bbaf;
+
+}
+.second h5{
+    margin-left: 150px;
+    color: #48bbaf;
+
+}
+.first p{
+    margin-left: 25px;
+}
+.second p{
+    margin-left: 70px;
+}
+.cont{
+    margin-top: 70px;
+    margin-bottom: 70px;
+    margin-left: 450px;
+}
+
+/*
+
+<section class="cartologie">
+            <div class="document">
+                <div class="card">
+                    <h5 class="=title-card">Améliorer la vie de millions de personnes. Changez le vôtre pour toujours.
+                    </h5>
+                    <div class="card-body">
+                        <p class="card-text">Plus de 2 200 coéquipiers partagent notre même vision,
+                            nos mêmes objectifs et notre même passion. Avec des bureaux à Varsovie,
+                            Barcelone, Munich, Istanbul,
+                            Rome, Bologne, Mexico e
+                            t Curitiba, notre recherche de gran
+                            ds talents ne s'arrête jamais.VarsovieVOIR LES OUVERTURES
+                            .</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-3 autre">
+                        <img class="card-img-top" src="https://www.docplanner.com/images/warsaw.png"
+                            alt="Card image cap">
+                        <div class="card-body">
+                            <a href="/" class="card-link">Varsovie</a>
+                            <a href="/" class="btn btn-primary">Voir les OUVERTURES</a>
+                        </div>
+                    </div>
+                    <div class="col-3 autre">
+                        <img class="card-img-top" src="https://www.docplanner.com/images/barcelona.png"
+                            alt="Card image cap">
+                        <div class="card-body">
+                            <a href="/" class="card-link">Barcelone</a>
+                            <a href="/" class="btn btn-primary">Voir les OUVERTURES</a>
+                        </div>
+                    </div>
+                    <div class="col-3 autre">
+                        <img class="card-img-top" src="https://www.docplanner.com/images/munich.png"
+                            alt="Card image cap">
+                        <div class="card-body">
+                            <a href="/" class="card-link">Munich</a>
+                            <a href="/" class="btn btn-primary">Voir les OUVERTURES</a>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-3 autre">
+                            <img class="card-img-top" src="https://www.docplanner.com/images/istanbul.png"
+                                alt="Card image cap">
+                            <div class="card-body">
+                                <a href="/" class="card-link">Istanbul</a>
+                                <a href="/" class="btn btn-primary">Voir les OUVERTURES</a>
+                            </div>
+                        </div>
+                        <div class="col-3 autre">
+                            <img class="card-img-top" src="https://www.docplanner.com/images/rome.png"
+                                alt="Card image cap">
+                            <div class="card-body">
+                                <a href="/" class="card-link">Rome</a>
+                                <a href="/" class="btn btn-primary">Voir les OUVERTURES</a>
+                            </div>
+                        </div>
+                        <div class="col-3 autre" >
+                            <img class="card-img-top" src="https://www.docplanner.com/images/bologna.png"
+                                alt="Card image cap">
+                            <div class="card-body">
+                                <a href="/" class="card-link">Bologne</a>
+                                <a href="/" class="btn btn-primary">Voir les OUVERTURES</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-3 autre">
+                            <img class="card-img-top" src="https://www.docplanner.com/images/curitiba.png" alt="Card image cap">
+                            <div class="card-body">
+                                <a href="/" class="card-link">Curitiba</a>
+                                <a href="/" class="btn btn-primary">Voir les OUVERTURES</a>
+                            </div>
+                        </div>
+                        <div class="col-3  autre" >
+                            <img class="card-img-top" src="https://www.docplanner.com/images/mexico-city.png"
+                                alt="Card image cap">
+                            <div class="card-body">
+                                <a href="/" class="card-link">Mexico</a>
+                                <a href="/" class="btn btn-primary">Voir les OUVERTURES</a>
+                            </div>
+                        </div>
+                       
+                    
+                    </div>
+                </div>
+
+                
+            </div>
+
+        </section>
+        <section class="join">
+            <div class="contact">
+                <div class="col">
+                    <h4>Ça semble intéressant?<br> Rejoignez nous maintenant!</h4>
+                    <a href="#" class="btn btn-primary">Voir Toutes Les OUVERTURES en Cours</a>
+                </div>
+            </div>
+        </section>
+*/
